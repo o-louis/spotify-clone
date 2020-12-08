@@ -3,8 +3,11 @@
     <Navbar />
     <main class="w-full ml-56">
       <Header />
-      <Playlist />
-      <Playlist />
+      <Playlist title="Recently Played" />
+      <Playlist
+        title="Made For You"
+        subtitle="Get better recommendations the more you listen."
+      />
     </main>
     <Player />
   </div>
