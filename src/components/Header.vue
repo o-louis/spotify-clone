@@ -32,7 +32,6 @@
           ></polyline>
         </svg>
       </li>
-
       <li
         class="flex items-center w-24 text-white bg-black opacity-80 rounded-full justify-between text-sm p-1"
       >
