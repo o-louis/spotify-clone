@@ -35,9 +35,7 @@
 
     <!-- Action on Playlists -->
     <div class="text-white px-4 mt-6 text-sm">
-      <h1
-        class="uppercase tracking-widest opacity-70 font-bold mb-2 text-xs mb-4"
-      >
+      <h1 class="uppercase tracking-widest opacity-70 font-bold text-xs mb-4">
         Playlists
       </h1>
       <ul class="border-b border-white border-opacity-20 pb-1">
@@ -48,7 +46,7 @@
           :class="
             `${
               action.name === selectedSection ? 'opacity-100' : ''
-            } font-semibold opacity-70 flex items-center cursor-pointer hover:opacity-100 mb-2 font-bold`
+            } opacity-70 flex items-center cursor-pointer hover:opacity-100 mb-2 font-bold`
           "
         >
           <div
@@ -77,7 +75,7 @@
         <li
           @click="selectedSection = `Lo-Fi Beats`"
           :class="
-            `cursor-pointer opacity-70 ${
+            `cursor-pointer opacity-70 mt-10 ${
               selectedSection === 'Lo-Fi Beats' ? `opacity-100` : ``
             }`
           "
